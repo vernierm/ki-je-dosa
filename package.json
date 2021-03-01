@@ -1,4 +1,5 @@
 {
+  "homepage": "http://vernierm.github.io/ki-je-dosa",
   "name": "ki-je-dosa",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts-kotlin": "4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts-kotlin start",
     "build": "react-scripts-kotlin build",
     "eject": "react-scripts-kotlin eject",
