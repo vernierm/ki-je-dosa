@@ -6,7 +6,7 @@ import './App.css';
 
 const INPUT_STATE = "INPUT_STATE";
 const OUTPUT_STATE = "OUTPUT_STATE";
-const MIN_NUMBER_OF_ROUNDS = 1;
+const MIN_NUMBER_OF_ROUNDS = 3;
 
 class Game extends React.Component {
   constructor(props) {
@@ -17,6 +17,7 @@ class Game extends React.Component {
     };
 
     this.enterOutputState = this.enterOutputState.bind(this);
+    this.handleNewGame = this.handleNewGame.bind(this);
   }
 
   saveForm(f) {
@@ -36,8 +37,15 @@ class Game extends React.Component {
     });
   }
 
+  handleNewGame() {
+    this.setState({
+      submittedForms: [],
+      gameState: INPUT_STATE,
+    });
+  }
+
   render() {
-    if (this.state.gameState == INPUT_STATE) {
+    if (this.state.gameState === INPUT_STATE) {
       return (
         <div>
           <div>
@@ -51,7 +59,7 @@ class Game extends React.Component {
       );
     } else {
       return (
-        <Display items={this.state.submittedForms} />
+        <Display items={this.state.submittedForms} onNewGameClick={this.handleNewGame} />
       );
     }
   }

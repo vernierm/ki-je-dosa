@@ -42,6 +42,7 @@ class Display extends React.Component {
           <div>
             <button className="Display-button" onClick={()=>this.setCurrentItem(i - 1)} disabled={i<=0}>nazad</button>
             <button className="Display-button" onClick={()=>this.setCurrentItem(i + 1)} disabled={i>=itemsLength-1}>naprid</button>
+            <button className="Display-button" onClick={this.props.onNewGameClick} disabled={i<itemsLength-1}>nova igra</button>
           </div>
         </div>
     );
