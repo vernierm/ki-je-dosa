@@ -37,7 +37,7 @@ class Display extends React.Component {
     ];
     return (
         <div>
-          <p>{this.props.items[indices[indices[0]]].male} i {this.props.items[indices[1]].female} {this.props.items[indices[2]].where} {this.props.items[indices[3]].doingWhat}, dojde {this.props.items[indices[4]].thirdPerson} i reče `{this.props.items[indices[5]].statement}!`</p>
+          <p>{this.props.items[indices[0]].male} i {this.props.items[indices[1]].female} {this.props.items[indices[2]].where} {this.props.items[indices[3]].doingWhat}, dojde {this.props.items[indices[4]].thirdPerson} i reče `{this.props.items[indices[5]].statement}!`</p>
           <p>[{i + 1} / {itemsLength}]</p>
           <div>
             <button className="Display-button" onClick={()=>this.setCurrentItem(i - 1)} disabled={i<=0}>nazad</button>
