@@ -1,4 +1,5 @@
 import React from 'react';
+import Display from './Display.js';
 import Form from './Form.js';
 import logo from './kjd.png';
 import './App.css';
@@ -50,9 +51,7 @@ class Game extends React.Component {
       );
     } else {
       return (
-        <div>
-
-        </div>
+        <Display items={this.state.submittedForms} />
       );
     }
   }

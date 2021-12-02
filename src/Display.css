@@ -1,0 +1,21 @@
+.Display-button {
+  background-color: #EEEBDD;
+  border: solid 3px;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2vmin);
+  color: #212121;
+}
+
+.Display-button[disabled]{
+  background-color: #cccccc;
+  border: solid 3px;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2vmin);
+  color: #666666;
+}
