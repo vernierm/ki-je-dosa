@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #212121;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -19,12 +19,23 @@
 }
 
 .App-body {
-  background-color: #282c30;
-  min-height: 100vh;
+  background-color: #EEEBDD;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #212121;
+}
+
+.App-button {
+  background-color: #EEEBDD;
+  border: solid 3px;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4vmin);
+  color: #212121;
 }

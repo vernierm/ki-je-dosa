@@ -1,0 +1,23 @@
+.Form-input {
+  background-color: #EEEBDD;
+  display: flex;
+  border: solid 1px;
+  border-radius: 3px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2vmin);
+  color: #212121;
+}
+
+.Form-button {
+  background-color: #EEEBDD;
+  display: flex;
+  border: solid 1px;
+  border-radius: 3px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2vmin);
+  color: #212121;
+}
