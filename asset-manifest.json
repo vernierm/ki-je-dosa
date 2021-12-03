@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ki-je-dosa/static/css/main.acd3f0e9.chunk.css",
+    "main.js": "/ki-je-dosa/static/js/main.c3372bec.chunk.js",
+    "main.js.map": "/ki-je-dosa/static/js/main.c3372bec.chunk.js.map",
+    "runtime-main.js": "/ki-je-dosa/static/js/runtime-main.9fa2c133.js",
+    "runtime-main.js.map": "/ki-je-dosa/static/js/runtime-main.9fa2c133.js.map",
+    "static/js/2.0b1ebd6d.chunk.js": "/ki-je-dosa/static/js/2.0b1ebd6d.chunk.js",
+    "static/js/2.0b1ebd6d.chunk.js.map": "/ki-je-dosa/static/js/2.0b1ebd6d.chunk.js.map",
+    "index.html": "/ki-je-dosa/index.html",
+    "static/css/main.acd3f0e9.chunk.css.map": "/ki-je-dosa/static/css/main.acd3f0e9.chunk.css.map",
+    "static/js/2.0b1ebd6d.chunk.js.LICENSE.txt": "/ki-je-dosa/static/js/2.0b1ebd6d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fa2c133.js",
+    "static/js/2.0b1ebd6d.chunk.js",
+    "static/css/main.acd3f0e9.chunk.css",
+    "static/js/main.c3372bec.chunk.js"
+  ]
+}
