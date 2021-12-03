@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+# Ki je doša?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A game my friends and I used to play as children.
+Created for the purpose of learning React, and fun.
 
-## Available Scripts
-
-In the project directory, you can run:
+# Developing and deploying
 
 ### `npm start`
 
@@ -13,6 +12,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `npm run deploy`
+Deploys the app to `homepage` defined in `package.json` file.
+See `gh-pages` branch on the remote repo.
 
 ### `npm test`
 
