@@ -1,6 +1,22 @@
 import React from 'react';
 import './Form.css';
 
+function InputLabel(props) {
+  return (
+    <label>
+      {props.label}
+      <input
+        className="Form-input"
+        name={props.name}
+        type="text"
+        spellCheck="false"
+        value={props.value}
+        onChange={props.onChange}
+      />
+    </label>
+  );
+}
+
 class Form extends React.Component {
   constructor(props) {
     super(props);
@@ -72,30 +88,12 @@ class Form extends React.Component {
   render() {
     return (
       <form className="Form-input" onSubmit={this.handleSubmit}>
-        <label>
-          Muški:
-          <input className="Form-input" name="male" type="text" spellCheck="false" value={this.state.name} onChange={this.handleChange} />
-        </label>
-        <label>
-          Ženska:
-          <input className="Form-input" name="female" type="text" spellCheck="false" value={this.state.female} onChange={this.handleChange} />
-        </label>
-        <label>
-          Kadi?
-          <input className="Form-input" name="where" type="text" spellCheck="false" value={this.state.where} onChange={this.handleChange} />
-        </label>
-        <label>
-          Ča delaju?
-          <input className="Form-input" name="doingWhat" type="text" spellCheck="false" value={this.state.doingWhat} onChange={this.handleChange} />
-        </label>
-        <label>
-          Ki je doša?
-          <input className="Form-input" name="thirdPerson" type="text" spellCheck="false" value={this.state.thirdPerson} onChange={this.handleChange} />
-        </label>
-        <label>
-          Ča je reka?
-          <input className="Form-input" name="statement" type="text" spellCheck="false" value={this.state.statement} onChange={this.handleChange} />
-        </label>
+        <InputLabel label="Muški:" name="male" value={this.state.male} onChange={this.handleChange} />
+        <InputLabel label="Ženska:" name="female" value={this.state.female} onChange={this.handleChange} />
+        <InputLabel label="Kadi?" name="where" value={this.state.where} onChange={this.handleChange} />
+        <InputLabel label="Ča delaju?" name="doingWhat" value={this.state.doingWhat} onChange={this.handleChange} />
+        <InputLabel label="Ki je doša?" name="thirdPerson" value={this.state.thirdPerson} onChange={this.handleChange} />
+        <InputLabel label="Ča je reka?" name="statement" value={this.state.statement} onChange={this.handleChange} />
         <input className="Form-button" type="submit" value="Unesi" />
       </form>
     );
