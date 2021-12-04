@@ -1,7 +1,6 @@
 import React from 'react';
 import Display from './Display.js';
 import Form from './Form.js';
-import logo from './kjd.png';
 import './App.css';
 
 const INPUT_STATE = "INPUT_STATE";
@@ -69,7 +68,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={process.env.PUBLIC_URL + '/kjd.png'} className="App-logo" alt="logo" />
       </header>
       <div className="App-body">
         <Game />
