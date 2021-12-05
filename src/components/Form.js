@@ -11,6 +11,7 @@ function InputLabel(props) {
         name={props.name}
         type="text"
         spellCheck="false"
+        autocomplete="off"
         value={props.value}
         onChange={props.onChange}
       />
