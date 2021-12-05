@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ki-je-dosa/static/css/main.97ee513f.chunk.css",
-    "main.js": "/ki-je-dosa/static/js/main.0cceac3b.chunk.js",
-    "main.js.map": "/ki-je-dosa/static/js/main.0cceac3b.chunk.js.map",
+    "main.js": "/ki-je-dosa/static/js/main.985b0157.chunk.js",
+    "main.js.map": "/ki-je-dosa/static/js/main.985b0157.chunk.js.map",
     "runtime-main.js": "/ki-je-dosa/static/js/runtime-main.9fa2c133.js",
     "runtime-main.js.map": "/ki-je-dosa/static/js/runtime-main.9fa2c133.js.map",
     "static/js/2.5fca41c1.chunk.js": "/ki-je-dosa/static/js/2.5fca41c1.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.9fa2c133.js",
     "static/js/2.5fca41c1.chunk.js",
     "static/css/main.97ee513f.chunk.css",
-    "static/js/main.0cceac3b.chunk.js"
+    "static/js/main.985b0157.chunk.js"
   ]
 }
