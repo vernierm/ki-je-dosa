@@ -2,6 +2,7 @@ import React from 'react';
 import './Game.css';
 import Display from './Display.js';
 import Form from './Form.js';
+import { withAlert } from 'react-alert';
 
 const INPUT_STATE = "INPUT_STATE";
 const OUTPUT_STATE = "OUTPUT_STATE";
@@ -27,7 +28,7 @@ class Game extends React.Component {
 
   enterOutputState(event) {
     if (this.state.submittedForms.length < MIN_NUMBER_OF_ROUNDS) {
-        alert('unesi baren ' + MIN_NUMBER_OF_ROUNDS);
+        this.props.alert.show('unesi baren ' + MIN_NUMBER_OF_ROUNDS);
         return;
     }
 
@@ -64,4 +65,4 @@ class Game extends React.Component {
   }
 }
 
-export default Game;
+export default withAlert()(Game);

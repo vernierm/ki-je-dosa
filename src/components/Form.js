@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Form.css';
+import { useAlert } from 'react-alert';
 
 function InputLabel(props) {
   return (
@@ -28,6 +29,7 @@ const initialValues = {
 
 export default function Form(props) {
   const [values, setValues] = useState(initialValues);
+  const alert = useAlert();
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -49,7 +51,7 @@ export default function Form(props) {
     event.preventDefault();
     const currentValues = values;
     if (!valid(currentValues)) {
-      alert('popuni sva polja');
+      alert.show('popuni sva polja');
     } else {
       event.target.reset();
       resetValues();
