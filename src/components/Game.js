@@ -49,11 +49,12 @@ class Game extends React.Component {
       return (
         <div>
           <div>
-            <Form
-              onClick={(v)=>this.saveForm(v)}
-            />
-            <p>Broj rundi: {this.state.submittedForms.length}</p>
-            <button className="Game-button" onClick={this.enterOutputState}>Amooo</button>
+            <div className="Game-status">
+              <div>Broj do sad zapišenih: {this.state.submittedForms.length}</div>
+              <button className="Game-button" onClick={this.enterOutputState}>Amooo</button>
+            </div>
+            <p />
+            <Form onClick={(v)=>this.saveForm(v)} />
           </div>
         </div>
       );

@@ -61,7 +61,7 @@ export default function Form(props) {
   }
 
   return (
-    <form className="Form-input" onSubmit={handleSubmit}>
+    <form className="Form-whole" onSubmit={handleSubmit}>
       <InputLabel label="Muški:" name="male" value={values.male} onChange={handleInputChange} />
       <InputLabel label="Ženska:" name="female" value={values.female} onChange={handleInputChange} />
       <InputLabel label="Kadi?" name="where" value={values.where} onChange={handleInputChange} />

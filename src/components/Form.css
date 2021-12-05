@@ -1,13 +1,27 @@
+.Form-whole {
+  display: flex;
+  border: solid 1px;
+  border-radius: 3px;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(3vmin);
+  color: #212121;
+}
+
 .Form-input {
   background-color: #EEEBDD;
   display: flex;
   border: solid 1px;
   border-radius: 3px;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(2vmin);
+  font-size: calc(3vmin);
   color: #212121;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-up: 5px;
+  margin-bottom: 5px;
 }
 
 .Form-button {
@@ -18,6 +32,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(2vmin);
+  font-size: calc(3vmin);
+  margin-up: 5px;
+  margin-bottom: 5px;
   color: #212121;
 }

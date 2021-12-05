@@ -1,3 +1,9 @@
+.Game-status {
+  font-size: calc(3vmin);
+  word-break:break-all;
+  color: #212121;
+}
+
 .Game-button {
   background-color: #EEEBDD;
   border: solid 3px;
@@ -5,6 +11,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(4vmin);
+  font-size: calc(2vmin);
   color: #212121;
 }
