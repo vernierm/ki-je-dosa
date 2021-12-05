@@ -1,7 +1,7 @@
 import React from 'react';
+import './Game.css';
 import Display from './Display.js';
 import Form from './Form.js';
-import './App.css';
 
 const INPUT_STATE = "INPUT_STATE";
 const OUTPUT_STATE = "OUTPUT_STATE";
@@ -52,7 +52,7 @@ class Game extends React.Component {
               onClick={(v)=>this.saveForm(v)}
             />
             <p>Broj rundi: {this.state.submittedForms.length}</p>
-            <button className="App-button" onClick={this.enterOutputState}>Amooo</button>
+            <button className="Game-button" onClick={this.enterOutputState}>Amooo</button>
           </div>
         </div>
       );
@@ -64,17 +64,4 @@ class Game extends React.Component {
   }
 }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={process.env.PUBLIC_URL + '/kjd.png'} className="App-logo" alt="logo" />
-      </header>
-      <div className="App-body">
-        <Game />
-      </div>
-    </div>
-  );
-}
-
-export default App;
+export default Game;

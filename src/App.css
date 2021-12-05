@@ -28,14 +28,3 @@
   font-size: calc(10px + 2vmin);
   color: #212121;
 }
-
-.App-button {
-  background-color: #EEEBDD;
-  border: solid 3px;
-  border-radius: 5px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(4vmin);
-  color: #212121;
-}
