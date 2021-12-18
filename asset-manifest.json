@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ki-je-dosa/static/css/main.afac973a.chunk.css",
+    "main.css": "/ki-je-dosa/static/css/main.0c93139a.chunk.css",
     "main.js": "/ki-je-dosa/static/js/main.79013cf1.chunk.js",
     "main.js.map": "/ki-je-dosa/static/js/main.79013cf1.chunk.js.map",
     "runtime-main.js": "/ki-je-dosa/static/js/runtime-main.9fa2c133.js",
@@ -8,13 +8,13 @@
     "static/js/2.5fca41c1.chunk.js": "/ki-je-dosa/static/js/2.5fca41c1.chunk.js",
     "static/js/2.5fca41c1.chunk.js.map": "/ki-je-dosa/static/js/2.5fca41c1.chunk.js.map",
     "index.html": "/ki-je-dosa/index.html",
-    "static/css/main.afac973a.chunk.css.map": "/ki-je-dosa/static/css/main.afac973a.chunk.css.map",
+    "static/css/main.0c93139a.chunk.css.map": "/ki-je-dosa/static/css/main.0c93139a.chunk.css.map",
     "static/js/2.5fca41c1.chunk.js.LICENSE.txt": "/ki-je-dosa/static/js/2.5fca41c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9fa2c133.js",
     "static/js/2.5fca41c1.chunk.js",
-    "static/css/main.afac973a.chunk.css",
+    "static/css/main.0c93139a.chunk.css",
     "static/js/main.79013cf1.chunk.js"
   ]
 }
