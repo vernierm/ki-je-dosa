@@ -5,7 +5,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(2vmin);
+  font-size: calc(4vmin);
   color: #212121;
 }
 
@@ -16,6 +16,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(2vmin);
+  font-size: calc(4vmin);
   color: #666666;
 }
